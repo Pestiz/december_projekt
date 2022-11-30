@@ -1,0 +1,54 @@
+:root {
+    --orange: #e67e22;
+    --black: #333;
+    --light-color: #777;
+    --border: .1rem solid rgba(0, 0, 0, .2);
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.contact{
+    margin-top: 15rem;
+    background:url(../images/chalkboard-with-blue-envelopes-drawn-hand.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contact form{
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    margin: 2rem auto;
+    max-width: 70rem;
+    padding: 2rem;   
+}
+
+.contact form h3{
+    color: var(--black);
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.contact form .input_box{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+}
+
+.contact form .input_box input,
+.contact form textarea{
+    width: 100%;
+    background: #eee;
+    padding: 1rem;
+    margin: .7rem 0;
+    border-radius: .5rem;
+    color:var(--black);
+    font-size: 1.7rem;
+}
+
+.contact form .input_box input{
+    width: 49%;
+
+}
