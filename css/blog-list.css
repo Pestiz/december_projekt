@@ -114,6 +114,11 @@
     color: var(--orange);
 }
 
+.container .sidebar{
+    grid-column: 2/3;
+    grid-row: 1/-1;
+}
+
 .container .sidebar .box{
     border: var(--border);
     border-radius: .5rem;
@@ -244,4 +249,19 @@
 .container .sidebar .box .tags a:hover{
     background: var(--black);
     color: #fff;
+}
+
+#click_me{
+    align-self: flex-end;
+    grid-column: 1/1;
+}
+
+#blog_tittle_link{
+    padding-top: 1.5rem;
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+#blog_tittle_link:hover{
+    color: var(--orange);
 }

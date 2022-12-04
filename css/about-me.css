@@ -1,0 +1,59 @@
+:root {
+    --orange: #e67e22;
+    --black: #333;
+    --light-color: #777;
+    --border: .1rem solid rgba(0, 0, 0, .2);
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.about{
+    width: 100%;
+    padding: 7.8rem 0;
+}
+
+.about img{
+    height: auto;
+    width: 42rem;
+}
+
+.about_me{
+    width: 55rem;
+}
+
+.main{
+    width: 113rem;
+    max-width:95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about_me h1{
+    color: var(--black);
+    font-size: 8rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+.about_me h5{
+    color: var(--light-color);
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 2.5rem;
+    letter-spacing: 0.2rem;
+}
+
+span{
+    color: var(--orange)
+}
+
+.about_me p{
+    color: var(--orange);
+    letter-spacing: 0.1rem;
+    line-height: 2.8rem;
+    font-size: 1.8rem;
+    margin-bottom: 4.5rem;
+}

@@ -1,0 +1,87 @@
+:root {
+    --orange: #e67e22;
+    --black: #333;
+    --light-color: #777;
+    --border: .1rem solid rgba(0, 0, 0, .2);
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    background: #eee;
+}
+
+.content .single_post .post{
+    width: 100%;
+    padding: 2rem;
+    background: #fff;
+    border: var(--border);
+    border-radius: .5rem;
+    margin-top: 6rem;
+    margin-bottom: 1.5rem;
+}
+
+.content .single_post .post .image{
+    height: auto;
+    width: 100%;
+    border-radius: .5rem;
+    object-fit: cover;
+}
+
+.content .single_post .post .date{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    color: var(--orange);
+}
+
+.content .single_post .post .title{
+    padding-top: 1.5rem;
+    font-size: 4rem;
+    color: var(--black);
+}
+
+.content .single_post .post .text {
+    color: var(--light-color);
+    font-size: 3rem;
+    line-height: 3rem;
+    padding: 1rem 0;
+}
+
+.content .single_post .post .links {
+    border-top: var(--border);
+    margin-top: .5rem;
+    padding-top: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.content .single_post .post .links .user {
+    margin-right: auto;
+}
+
+.content .single_post .post .links a {
+    font-size: 1.5rem;
+    color: var(--light-color);
+}
+
+.content .single_post .post .links a i {
+    padding-right: .2rem;
+    color: var(--black);
+}
+
+.content .single_post .post .links a:hover {
+    color: var(--orange);
+}
+
+.content .single_post .post .links a:hover i{
+    color: var(--orange);
+}
+
+p{
+    color: var(--light-color);
+    font-size: 3rem;
+    line-height: 3rem;
+    padding: 1rem 0;
+}
