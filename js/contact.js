@@ -1,5 +1,3 @@
-console.log("chuj");
-
 const nameError = document.getElementById('name_error');
 const phoneError = document.getElementById('phone_error');
 const emailError = document.getElementById('email_error');
