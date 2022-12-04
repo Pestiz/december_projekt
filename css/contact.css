@@ -52,17 +52,6 @@
     width: 49%;
 
 }
-
-#submit_error{
-    color:red;
-}
 .input_group span{
     position: absolute;
-    bottom: 12px;
-    right: 17px;
-    font-size: 10px;
-    color: red;
 }
-.input_group span i{
-    color: seagreen;
-} 

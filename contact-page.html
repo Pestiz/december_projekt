@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/generals.css">
     <link rel="stylesheet" href="./css/contact.css">
     <script src="./js/index.js" defer></script>
+    <script src="./js/contact.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Contact page</title>
 </head>
@@ -42,23 +43,19 @@
         <form action="">
             <h3>Contact Me</h3>
             <div class="input_box">
-
-                <label>Full Name</label>
-                <input type="text" placeholder="Enter your name" id="contact_name" onkeyup="validateName()">
+                <input type="text" placeholder="name" id="contact_name" onkeyup="validateName()">
                 <span id="name_error"></span>
-
-                <label>Email Id</label>
-                <input type="email" placeholder="Enter Email" id="contact_email" onkeyup="validateEmail()">
+                <input type="email" placeholder="email" id="contact_email" onkeyup="validateEmail()">
                 <span id="email_error"></span>
-                <!-- <input type="text" placeholder="name">
-                <input type="email" placeholder="email"> -->
             </div>
             <div class="input_box">
-                <input type="number" placeholder="number">
+                <input type="number" placeholder="Phone No +47." id="contact_phone" onkeyup="validatePhone()">
+                <span id="phone_error"></span>
                 <input type="text" placeholder="subject">
             </div>
-            <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="send message" class="btn">
+            <textarea name="" placeholder="message" cols="30" id="contact_msg" onkeyup="validateMsg()"></textarea>
+            <span id="message_error"></span>
+            <input type="submit" value="send message" class="btn" id="submit_error">
         </form>
     </section>
     <!-- contact section end point-->
